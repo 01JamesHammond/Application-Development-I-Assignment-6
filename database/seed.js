@@ -20,6 +20,6 @@ db.run(`
 console.log('Sample data inserted');
 
 
-db.all('SELECT * FROM products', (err, rows) => { 
+db.all('SELECT * FROM courses', (err, rows) => { 
     console.log(rows); 
 });
